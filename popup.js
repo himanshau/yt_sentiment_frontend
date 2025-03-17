@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
     const outputDiv = document.getElementById("output");
-    const API_KEY = 'AIzaSyBSXfVHEI7Un9T1GjSVmgq_umX9sRErL4I';  // Replace with your actual YouTube Data API key
+    const API_KEY = '/.env';  // Replace with your actual YouTube Data API key
     const API_URL = 'http://127.0.0.1:5000';
     
     // Store all comments and predictions globally for filtering
